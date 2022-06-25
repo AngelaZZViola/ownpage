@@ -1,0 +1,91 @@
+
+/* 指定单元格边界距离 */
+table{
+    border-spacing: 0;
+}
+
+/* 给右边页面设置样式 */
+#rightpage{
+    margin-left: 200px;
+    padding-left: 20px;
+    /* background-color: white; */
+}
+
+/* 定义表格列边框 */
+.coursetable td,.studytable td{
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+/* 定义表格行边框 */
+table tr{
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+
+/* 用来规定课程表格的样式 */
+.coursetable{
+    width: 800px;
+    text-align: left;
+    text-indent: 2em;
+    border: 1px solid black;
+}
+
+/* 用来规定课程表格的样式 */
+.coursetable_title{
+    text-align: center;
+    
+}
+
+/* .courseintroduction{
+
+} */
+
+/* 用来规定表格的样式 */
+.studytable{
+    border: 1px solid black;
+    width: 800px;
+}
+
+/* 用来定义课程名行样式 */
+.coursename{
+    background-color: #b8dbed;
+}
+
+/* 用来定义课程名行中字体样式 */
+.coursename h2{
+    color: rgb(52, 97, 153);
+}
+
+/* 定义侧边栏宽度和向左浮动 */
+.sidebook{
+    float: left;
+    width: 300px;
+    /* border: 1px solid black ; */
+}
+
+.sidebook_title{
+    border: 2px solid rgba(250, 248, 182, 0.879);
+    width: 220px;
+}
+
+.book_block{
+    height: 400px;
+    width: 220px;
+    border: 2px solid rgba(250, 248, 182, 0.879);
+}
+
+/* 规定图片所占长宽 */
+.book_img{
+    width: 200px;
+    height: 280px;
+}
+
+.book_introduction{
+    width: 200px;
+    height: 190px;
+    text-indent: 2em;
+    text-align: left;
+    padding-top: 10px;
+}
